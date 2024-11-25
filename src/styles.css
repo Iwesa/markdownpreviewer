@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: start;
+    background: #C0D8D8;
+    margin: 10px;
+}
+
+.editor {
+    width: 600px;
+    height: 240px;
+}
+
+.preview {
+    width: 800px;
+}
+
+#preview {
+    text-wrap: wrap;
+}
+
+.label {
+    background-color: #4aa3a3;
+    margin: 5px;
+    padding: 2px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
